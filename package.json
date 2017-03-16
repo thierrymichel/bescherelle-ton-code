@@ -1,0 +1,14 @@
+{
+  "name": "bescherelle-ton-code",
+  "version": "0.0.0",
+  "description": "Demo conf feweb sur les linters",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --ext .js src/ || exit 0",
+    "fix": "eslint --ext .js src/ --fix || exit 0",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Thierry Michel",
+  "license": "SEE LICENSE IN UNLICENSE",
+  "devDependencies": {}
+}
